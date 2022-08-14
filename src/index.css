@@ -21,18 +21,18 @@ body {
   background-attachment: fixed;
   background: linear-gradient(
     to right bottom,
-    #b5d3ff,
-    #b8cfff,
-    #bcccff,
-    #c1c7ff,
-    #c7c3ff,
-    #cec1ff,
-    #d5bfff,
-    #dcbdff,
-    #e4bdff,
-    #ecbdff,
-    #f4bdff,
-    #fcbdff
+    #b5f8ff,
+    #a4edff,
+    #9ae0ff,
+    #98d2ff,
+    #a0c3ff,
+    #aebcff,
+    #c0b4ff,
+    #d4aafa,
+    #e1acf6,
+    #edaff1,
+    #f7b2ed,
+    #ffb6e9
   );
   color: #1d283a;
 }
@@ -60,4 +60,21 @@ button:active {
 
 button:hover {
   box-shadow: 0 5px rgb(130, 130, 130);
+}
+
+.guess {
+  font-size: 24px;
+}
+
+input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 2px rgb(130, 130, 130);
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
 }
