@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       <h1>Color Coded</h1>
       <Color colorGenerator={colorGenerator} color={color} />
     </div>

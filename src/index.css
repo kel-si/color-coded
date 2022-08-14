@@ -1,10 +1,22 @@
+* {
+  font-family: "Tajawal", sans-serif;
+}
+
 html {
   height: 100%;
-  color: rgb(100, 123, 24);
+  display: flex;
 }
+
+.app {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+}
+
 body {
   height: 100%;
-  margin: 0;
+  width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(
@@ -22,6 +34,30 @@ body {
     #f4bdff,
     #fcbdff
   );
-  font-family: "Tajawal", sans-serif;
-  color: #081e41;
+  color: #1d283a;
+}
+
+h1 {
+  align-items: center;
+}
+
+button.given-color {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: none;
+  font-size: 36px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 9px rgb(240, 240, 240);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button:hover {
+  box-shadow: 0 5px rgb(130, 130, 130);
 }
