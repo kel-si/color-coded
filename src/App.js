@@ -20,9 +20,11 @@ function App() {
   return (
     <div className="app">
       <h1>Color Coded</h1>
+      <p>Click the circle below to generate a color!</p>
       <Color colorGenerator={colorGenerator} color={color} />
       <h3>Guess the RGB color code:</h3>
       <Guess />
+      <footer>Made by Kelsi Olstad✨</footer>
     </div>
   );
 }
