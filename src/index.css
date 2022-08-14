@@ -19,7 +19,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: linear-gradient(
+  background-image: linear-gradient(
     to right bottom,
     #b5f8ff,
     #a4edff,
@@ -43,8 +43,8 @@ h1 {
 
 button.given-color {
   align-items: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: none;
   font-size: 36px;
@@ -63,18 +63,37 @@ button:hover {
 }
 
 .guess {
-  font-size: 24px;
+  font-size: 1.5em;
+  display: flex;
 }
 
-input[type="submit"] {
+.submit {
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  width: 4em;
+  height: 2em;
+  margin: 5px;
+  font-size: 0.6em;
 }
 
-input[type="submit"]:hover {
+.submit:hover {
   box-shadow: 0 2px rgb(130, 130, 130);
 }
 
-input[type="submit"]:active {
+.submit:active {
   transform: translateY(2px);
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  height: 2em;
+  width: 2.5em;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0rem;
+  height: 1.5rem;
 }
