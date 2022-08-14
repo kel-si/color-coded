@@ -5,9 +5,7 @@ export default function Color(props) {
         className="given-color"
         style={{ background: props.color }}
         onClick={props.colorGenerator}
-      >
-        ⬇️
-      </button>
+      ></button>
     </div>
   );
 }
