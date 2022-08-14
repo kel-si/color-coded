@@ -1,6 +1,7 @@
 import { useState } from "react";
-
 import Color from "./components/Color";
+import Guess from "./components/Guess";
+
 function App() {
   const [color, setColor] = useState("");
 
@@ -20,6 +21,8 @@ function App() {
     <div className="app">
       <h1>Color Coded</h1>
       <Color colorGenerator={colorGenerator} color={color} />
+      <h3>Guess the RGB color code:</h3>
+      <Guess />
     </div>
   );
 }
