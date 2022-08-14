@@ -1,12 +1,12 @@
 export default function Guess() {
   return (
-    <div>
-      <form className="guess">
+    <div className="guess">
+      <form className="form">
         rgb(
-        <input placeholder="amount of red" type="text" />,
-        <input placeholder="amount of green" type="text" />,
-        <input placeholder="amount of blue" type="text" />)
-        <input type="submit" value="Submit" />
+        <input placeholder="red" type="text" />,
+        <input placeholder="green" type="text" />,
+        <input placeholder="blue" type="text" />)
+        <input className="submit" type="submit" value="Submit" />
       </form>
     </div>
   );
