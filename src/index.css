@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(
+    to right bottom,
+    #b5d3ff,
+    #b8cfff,
+    #bcccff,
+    #c1c7ff,
+    #c7c3ff,
+    #cec1ff,
+    #d5bfff,
+    #dcbdff,
+    #e4bdff,
+    #ecbdff,
+    #f4bdff,
+    #fcbdff
+  );
+  font-family: "Tajawal", sans-serif;
+}
