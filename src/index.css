@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  color: rgb(100, 123, 24);
 }
 body {
   height: 100%;
@@ -22,4 +23,5 @@ body {
     #fcbdff
   );
   font-family: "Tajawal", sans-serif;
+  color: #081e41;
 }
