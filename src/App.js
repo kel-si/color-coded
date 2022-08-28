@@ -29,7 +29,7 @@ function App() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log("color", color);
+    // console.log("color", color);
     // checkGuess();
   }
 
