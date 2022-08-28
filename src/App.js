@@ -4,6 +4,7 @@ import Color from "./components/Color";
 function App() {
   const [color, setColor] = useState("");
   const [guess, setGuess] = useState({});
+  const [diff, setDiff] = useState({});
 
   function randomNumber() {
     return Math.floor(Math.random() * 256);
@@ -13,7 +14,7 @@ function App() {
     const r = randomNumber();
     const g = randomNumber();
     const b = randomNumber();
-
+    setGuess({});
     return setColor(`rgb(${r}, ${g}, ${b})`);
   }
 
@@ -28,7 +29,22 @@ function App() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    console.log("color", color);
+    // checkGuess();
   }
+
+  // function checkGuess(guessR, guessG, guessB) {
+  //   // extracting the rgb values from state (string)
+  //   const rgbArr = color
+  //     .substring(4, color.length - 1)
+  //     .replace(/ /g, "")
+  //     .split(",");
+
+  //   const r = rgbArr[0];
+  //   const g = rgbArr[1];
+  //   const b = rgbArr[2];
+  //   // console.log("rgbArr", rgbArr);
+  // }
 
   return (
     <div className="app">

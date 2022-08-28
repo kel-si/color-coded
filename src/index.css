@@ -20,18 +20,18 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: linear-gradient(
-    to right bottom,
-    #b5f8ff,
-    #a4edff,
-    #9ae0ff,
-    #98d2ff,
-    #a0c3ff,
-    #aebcff,
-    #c0b4ff,
-    #d4aafa,
-    #e1acf6,
-    #edaff1,
-    #f7b2ed,
+    to bottom,
+    #9ecfff,
+    #a1cbff,
+    #a6c6ff,
+    #adc1ff,
+    #b4bcff,
+    #bebaff,
+    #c9b7fd,
+    #d3b4fb,
+    #e0b4f7,
+    #ebb4f3,
+    #f6b5ee,
     #ffb6e9
   );
   color: #1d283a;
@@ -51,7 +51,7 @@ button.given-color {
   font-size: 24px;
   text-align: center;
   cursor: pointer;
-  box-shadow: 0 9px rgb(240, 240, 240);
+  box-shadow: 0 3px rgb(240, 240, 240);
 }
 
 button:active {
@@ -93,7 +93,8 @@ input[type="text"] {
 }
 
 footer {
-  position: absolute;
+  padding-bottom: 1rem;
   bottom: 0rem;
-  height: 1.5rem;
+  height: auto;
+  position: fixed;
 }
